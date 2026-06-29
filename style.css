@@ -1,0 +1,17 @@
+@impoty url('hhtps://fonts.googleapis.com//css2?family=Roboto&family=Roboto+mono&display=swap');
+
+:root{
+    --branco: white;
+    --cor-de-fundo: #00162E;
+    --fundo-senha: #00244D;
+    --fundp-texto: #001E40;
+    --borda: #0075FF;
+    --roboto: 'Roboto', sans-serif
+    --roboto-mono: 'Roboto Mono', monospace
+
+}
+
+"{
+    font-wheight: 400;
+}"
+body{}
