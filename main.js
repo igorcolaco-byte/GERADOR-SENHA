@@ -24,5 +24,17 @@ const checkbox = document.querySelector('.checkbox');
 
 console.log(checkbox[0]checked);
 
-const letrasMaiusculasn = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const letrasMinusculas = 'abcdefghijklmnopqrstuvwxyz';
+const numero = '0123456789';
+const simbolo = '!@#$%*?';
+
+function gereSenha(){
+ let senha="";
+for (let index=0;index<tamanhoSenha; index++) {
+    let numeroAleatorio = Math.random()*letrasMaiusculas.lenght;
+    numeroAleatorio=Math.floor=(numeroAleatorio);
+    senha= senha+letrasMaiusculas[numeroAleatorio];
+}
+campoSenha.value = letrasMinusculas
+}
